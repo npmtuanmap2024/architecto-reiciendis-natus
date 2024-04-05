@@ -1,0 +1,6 @@
+{
+  "name": "octree",
+  "tree": {
+    "$path": "src"
+  }
+}

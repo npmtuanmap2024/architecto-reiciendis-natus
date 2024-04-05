@@ -1,0 +1,36 @@
+{
+  "name": "@quenty/snackbar",
+  "version": "11.1.0",
+  "description": "Snackbars provide lightweight feedback on an operation at the base of the screen. They automatically disappear after a timeout or user interaction. There can only be one on the screen at a time.",
+  "keywords": [
+    "Roblox",
+    "Nevermore",
+    "Lua",
+    "Snackbar"
+  ],
+  "bugs": {
+    "url": "https://github.com/Quenty/NevermoreEngine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quenty/NevermoreEngine.git",
+    "directory": "src/snackbar/"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/quenty"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Quenty"
+  ],
+  "dependencies": {
+    "@quenty/loader": "file:../loader",
+    "@quenty/maid": "file:../maid",
+    "@quenty/math": "file:../math",
+    "@quenty/qgui": "file:../qgui"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

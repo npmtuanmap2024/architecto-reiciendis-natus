@@ -1,18 +1,69 @@
 {
-  "name": "@utilcode/simple-template-advanced",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@npmtuanmap2024/architecto-reiciendis-natus",
+  "private": true,
+  "devDependencies": {
+    "@auto-it/all-contributors": "^v11.0.4",
+    "@auto-it/conventional-commits": "^v11.0.4",
+    "@auto-it/first-time-contributor": "^v11.0.4",
+    "@auto-it/npm": "^v11.0.4",
+    "@auto-it/released": "^v11.0.4",
+    "auto": "^v11.0.4",
+    "lerna": "^7.1.4",
+    "moonwave": "^1.0.1"
   },
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "author": "tuan149",
+  "auto": {
+    "plugins": [
+      [
+        "npm",
+        {
+          "forcePublish": false
+        }
+      ],
+      [
+        "conventional-commits",
+        {
+          "defaultReleaseType": "patch"
+        }
+      ],
+      "all-contributors",
+      "first-time-contributor",
+      "released"
+    ]
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@npmtuanmap2024/accusamus-doloremque-quos": "^v1.0.0",
+    "@npmtuanmap2024/adipisci-quaerat-iure": "^v1.0.0",
+    "@npmtuanmap2024/alias-odio-veniam": "^v1.0.0",
+    "@npmtuanmap2024/assumenda-officia-consequatur-in": "^v1.0.0",
+    "@npmtuanmap2024/commodi-dignissimos-officiis": "^v1.0.0",
+    "@npmtuanmap2024/commodi-neque-veritatis": "^v1.0.0",
+    "@npmtuanmap2024/dolores-quas-facilis": "^v1.0.0",
+    "@npmtuanmap2024/error-repudiandae-asperiores": "^v1.0.0",
+    "@npmtuanmap2024/eveniet-consectetur-fuga-magni": "^v1.0.0",
+    "@npmtuanmap2024/expedita-ex-atque": "^v1.0.0",
+    "@npmtuanmap2024/facere-facilis-blanditiis": "^v1.0.0",
+    "@npmtuanmap2024/inventore-delectus-corporis": "^v1.0.0",
+    "@npmtuanmap2024/ipsam-tempora-nisi-omnis": "^v1.0.0",
+    "@npmtuanmap2024/iusto-mollitia-voluptatem": "^v1.0.0",
+    "@npmtuanmap2024/maiores-eaque-est-tempora": "^v1.0.0",
+    "@npmtuanmap2024/molestias-sequi-enim": "^v1.0.0",
+    "@npmtuanmap2024/psychic-dollop": "^1.0.0",
+    "@npmtuanmap2024/quos-amet-ipsum": "^v1.0.0",
+    "@npmtuanmap2024/quos-id-labore": "^v1.0.0",
+    "@npmtuanmap2024/reiciendis-eos-magnam": "^v1.0.0",
+    "@npmtuanmap2024/saepe-quia-voluptates": "^v1.0.0",
+    "@npmtuanmap2024/voluptate-placeat-ea": "^v1.0.0",
+    "@npmtuanmap2024/voluptatibus-officia-fugit": "^v1.0.0"
+  },
+  "version": "v1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npmtuanmap2024/architecto-reiciendis-natus.git"
+  },
+  "homepage": "https://github.com/npmtuanmap2024/architecto-reiciendis-natus/#readme",
+  "bugs": {
+    "url": "https://github.com/npmtuanmap2024/architecto-reiciendis-natus/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }

@@ -1,0 +1,36 @@
+{
+  "name": "@quenty/assetserviceutils",
+  "version": "5.2.0",
+  "description": "Provides a wrapper for AssetService&#x27;s async calls",
+  "keywords": [
+    "Roblox",
+    "Nevermore",
+    "Lua",
+    "AssetService",
+    "Promise"
+  ],
+  "bugs": {
+    "url": "https://github.com/Quenty/NevermoreEngine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quenty/NevermoreEngine.git",
+    "directory": "src/assetserviceutils/"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/quenty"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Quenty"
+  ],
+  "dependencies": {
+    "@quenty/instanceutils": "file:../instanceutils",
+    "@quenty/loader": "file:../loader",
+    "@quenty/promise": "file:../promise"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
